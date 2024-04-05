@@ -1,0 +1,95 @@
+{
+  "location": "Blizen, Tanjungbalai",
+  "promotions": [
+    {
+      "title": "Buy one get one FREE",
+      "imageUrl": "promo_buy_one_get_one_free.jpg"
+    },
+    {
+      "title": "Buy three get one FREE",
+      "imageUrl": "promo_buy_one_get_one_free.jpg"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "cappuccino-chocolate",
+      "name": "Cappuccino with Chocolate",
+      "rating": 4.8,
+      "ratingsCount": 230,
+      "description": "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "price": 4.53,
+      "imageUrl": "cappuccino_chocolate.jpg"
+    },
+    {
+      "id": "cappuccino-oat-milk",
+      "name": "Cappuccino with Oat Milk",
+      "rating": 4.9,
+      "ratingsCount": 198,
+      "description": "Enjoy our dairy-free version of the classic cappuccino made with creamy oat milk.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "price": 3.90,
+      "imageUrl": "cappuccino_oat_milk.jpg"
+    },
+    {
+      "id": "latte",
+      "name": "Classic Latte",
+      "rating": 4.7,
+      "ratingsCount": 150,
+      "description": "Our classic latte is made with steamed milk and a shot of espresso, topped with a touch of foam.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "price": 3.50,
+      "imageUrl": "latte.jpg"
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "rating": 4.6,
+      "ratingsCount": 120,
+      "description": "An Americano is made with espresso and hot water, giving it a similar strength to, but different flavor from traditionally brewed coffee.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "price": 2.80,
+      "imageUrl": "americano.jpg"
+    }
+  ],
+  "orderDetails": {
+    "deliveryAddress": "Jl. Kpg Sutoyo No. 620, Blizen, Tanjungbalai",
+    "items": [
+      {
+        "id": "cappuccino-chocolate",
+        "name": "Cappuccino with Chocolate",
+        "size": "M",
+        "price": 4.53,
+        "quantity": 1
+      }
+    ],
+    "discounts": [
+      {
+        "title": "Promo Discount",
+        "amount": 1.00
+      }
+    ],
+    "paymentSummary": {
+      "itemsTotal": 4.53,
+      "deliveryFee": 1.00,
+      "discountsTotal": 1.00,
+      "totalDue": 4.53
+    }
+  }
+}
